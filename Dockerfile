@@ -1,4 +1,4 @@
 FROM golang:latest
-RUN mkdir /go/src
-WORKDIR /go/src
-ADD . /go/src
+RUN mkdir /go/src/app
+WORKDIR /go/src/app
+ADD . /go/src/app
